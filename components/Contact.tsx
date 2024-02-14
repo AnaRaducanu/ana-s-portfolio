@@ -19,19 +19,21 @@ const Contact = () => {
       <div className="flex flex-col md:flex-row-reverse gap-16 justify-center items-center">
         <div>
           <p className="max-w-[65ch]">
-            My contract work with School of Code is coming to an end shortly, and I'm looking for
-            new opportunities. If you're looking for a developer who makes a cracking cup of tea, 
-            I'd love to hear from you!
+            I am excited to join a mission-driven team, where I can contribute
+            my analytical skills, technical aptitude, and passion for
+            problem-solving. I am seeking a collaborative and friendly
+            environment where I can continue to grow and make a meaningful
+            impact.
           </p>
           <Link
-            href="mailto:emiliawilliamson@pm.me"
+            href="mailto:danuta.anna@yahoo.com"
             className="font-bold underline highlight"
           >
-            emiliawilliamson@pm.me
+            danuta.anna@yahoo.com
           </Link>
           <div className="flex flex-row gap-2 mt-4 items-center justify-center md:justify-start">
             <Link
-              href="https://linkedin.com/in/emiliawil"
+              href="https://www.linkedin.com/in/ana-danuta-raducanu-2b1b2590/"
               target="_blank"
               rel="noreferrer"
               className="font-bold underline "
@@ -43,7 +45,7 @@ const Contact = () => {
               />
             </Link>{" "}
             <Link
-              href="https://github.com/emiliawil"
+              href="https://github.com/AnaRaducanu"
               target="_blank"
               rel="noreferrer"
               className="font-bold underline"

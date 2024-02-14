@@ -11,10 +11,10 @@ const Hero = () => {
     >
       <div className="p-3 flex flex-col h-[80vh] items-center justify-center animate-fadeIn animation-delay-2">
         <Image
-          src="/images/hero.svg"
-          alt="emilia williamson: full stack web developer"
-          width={1000}
-          height={1000}
+          src="/images/logofirstpagebigger.png"
+          alt="ana raducanu: junior software developer"
+          width={3000}
+          height={3000}
           priority
         />
       </div>

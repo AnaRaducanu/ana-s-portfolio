@@ -39,14 +39,12 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-1 md:py-5 md:block">
             <Link href="/">
               <div className="container flex items-center">
-                
                 <Image
-                  src="/images/logo.svg"
+                  src="/images/sunlogo.png"
                   alt="logo"
                   width={90}
                   height={80}
                 />
-               
               </div>
             </Link>
             <div className="md:hidden">
@@ -72,7 +70,7 @@ export default function Navbar() {
             >
               {NAV_ITEMS.map((item, idx) => {
                 return (
-                  <Link 
+                  <Link
                     key={idx}
                     href={item.section}
                     className={
