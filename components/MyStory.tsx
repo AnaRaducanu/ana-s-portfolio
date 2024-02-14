@@ -34,7 +34,7 @@ const MyStory = () => {
   return (
     <section id="about" className="flex flex-col items-center mb-24">
       <Image
-        src="/images/myStory.svg"
+        src="/images/mystorylogo.png"
         width={542}
         height={111}
         alt="my story"
@@ -42,42 +42,19 @@ const MyStory = () => {
       />
       <div className="column text-justify">
         <p>
-          I’m Emilia, an{" "}
-          <span className="text-primary-darkblue font-bold">avid puzzler</span>,{" "}
-          <span className="text-primary-darkpink font-bold">
-            JavaScript fangirl
-          </span>
-          , and{" "}
-          <span className="text-primary-darkred font-bold">
-            lover of design
-          </span>
-          .
+          Hello, there! I'm Ana, a junior software developer enthusiast who
+          loves cracking code puzzles and playing hide-and-seek in the code. You
+          could say I'm a bit of a code detective! 
         </p>
         <p>
-          When I was younger, I was fascinated by magazine covers and page
-          layouts, making my own ‘newsletters’ using stickers and cuttings from
-          the girls’ magazines my mom bought me.
+          During my previous role as a sales and marketing analyst, I discovered
+          a passion for the technical aspects, specifically in debugging errors
+          and comprehending code while utilizing macros with the developer tab
+          option.
         </p>
         <p>
-          As a teenager, that translated into a love of web design. I would
-          spend hours on my old chunky laptop, carefully erasing backgrounds
-          from pictures of flowers and anime characters, constructing elaborate
-          banners in Corel Paint Shop Pro and slotting them into HTML table
-          layouts. It’s an era of the web I miss, and I always try to
-          incorporate the essence of what excited me about those websites into
-          my current work.
-        </p>
-        <p>
-          I didn’t know what I wanted to do after high school, and I never
-          considered that my weird hobby could be turned into a career. A lover
-          of the humanities, I did an English degree and then converted to Law,
-          before realising that world was not for me. I worked in advice and
-          guidance roles for years, still dabbling with coding in my free time,
-          before deciding to take the plunge and change my life by quitting my
-          job and committing to a career change.
-        </p>
-        <p>
-          I was fortunately accepted into{" "}
+          While on maternity leave, I seized the opportunity to embark on a
+          transformative 16-week journey at the{" "}
           <Link
             href="https://schoolofcode.co.uk"
             target="_blank"
@@ -86,9 +63,19 @@ const MyStory = () => {
           >
             School of Code
           </Link>
-          , an intensive 16-week web development bootcamp. It was life-changing.
-          We were taught how to learn, work on a dev team, think computationally
-          and solve problems creatively, and I have loved every second of it.
+          , a rigorous boot camp designed to facilitate the transition of
+          individuals from diverse backgrounds into the tech field. It was like
+          a rollercoaster ride, thrilling and intense and I successfully
+          completed the program, equipping myself with valuable skills and
+          knowledge.
+        </p>
+
+        <p>
+          Now, I'm excited to contribute my analytical and problem-solving
+          skills to a mission-driven team. When I'm not immersed in code, you
+          might find me enjoying a scoop of ice cream, exploring the world of
+          paint by numbers, or diving into a good book on how to negociate with
+          your toddler :).
         </p>
       </div>
       {/* <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">

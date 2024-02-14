@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <main className="mx-auto p-3 font-jakarta max-w-7xl">
       <Hero />
+      <MyStory />
       <MyWork />
       <Toolbox />
-      <MyStory />
       <Contact />
     </main>
   );
