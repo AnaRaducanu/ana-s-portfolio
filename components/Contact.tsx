@@ -9,11 +9,11 @@ const Contact = () => {
       className="flex flex-col text-center md:text-left items-center justify-center mb-24 max-w-4xl mx-auto"
     >
       <Image
-        src="/images/contactmelogo.png"
+        src="/images/ContactMe.svg"
         alt="toolbox"
         className="my-24 pl-8 pr-5"
-        width={515}
-        height={94}
+        width={558}
+        height={105}
       />
 
       <div className="flex flex-col md:flex-row-reverse gap-16 justify-center items-center">

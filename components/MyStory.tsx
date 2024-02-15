@@ -34,9 +34,9 @@ const MyStory = () => {
   return (
     <section id="about" className="flex flex-col items-center mb-24">
       <Image
-        src="/images/mystorylogo.png"
-        width={542}
-        height={111}
+        src="/images/myStory.svg"
+        width={558}
+        height={105}
         alt="my story"
         className="my-24 px-6"
       />

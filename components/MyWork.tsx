@@ -5,23 +5,22 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
-    name: "LetChat",
+    name: "Habitap",
     description:
-      "LetChat is a communication app designed to ease the process of communication for tenants and landlords.",
-    image: "/images/work/letChat.png",
+      "A simple yet engaging habit tracking app that helps people build new and better habits in a fun, social and trackable way, without distracting from what’s important.",
+    image: "/images/work/HabitapAppPresentationImg.png",
     page: "/work/letChat",
-    github:
-      "https://github.com/SchoolOfCode/bc13_final-project_front-end-git-gud",
-    link: "https://letchat.co.uk/",
+    github: "https://github.com/AnaRaducanu/habitap",
+    link: "https://habitap.vercel.app/login",
   },
   {
-    name: "Insight Dashboard",
-    description: "A wellbeing app to help bootcampers maintain healthy habits.",
-    image: "/images/work/insightDashboard.png",
+    name: "BootcampBuddy",
+    description:
+      "An app designed for fellow bootcampers to have all the learning resources in our single place, structured by the agenda of the week.",
+    image: "/images/work/BootcampBuddyImg.png",
     page: "/work/insightDashboard",
-    github:
-      "https://github.com/SchoolOfCode/bc13_w9_project-frontend-globally-scoped",
-    link: "https://insightdashboard.netlify.app/",
+    github: "https://github.com/AnaRaducanu/Week8_Project_Week_Team5",
+    link: "https://github.com/AnaRaducanu/Week8_Project_Week_Team5",
   },
 ];
 
@@ -29,11 +28,11 @@ const MyWork = () => {
   return (
     <section id="work" className="flex flex-col items-center mb-24">
       <Image
-        src="/images/projectslogo.png"
+        src="/images/Projects.svg"
         alt="my work"
         className="my-24 px-6"
-        width={700}
-        height={250}
+        width={558}
+        height={105}
       />
 
       <div className="flex flex-col space-y-28">

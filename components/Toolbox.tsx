@@ -4,11 +4,11 @@ const Toolbox = () => {
   return (
     <section id="work" className="flex flex-col items-center mb-24">
       <Image
-        src="/images/toolboxlogo.png"
+        src="/images/toolbox.svg"
         alt="toolbox"
         className="my-24 pr-7 pl-10"
-        width={600}
-        height={170}
+        width={558}
+        height={105}
       />
       <Image
         src="/images/tools.svg"
