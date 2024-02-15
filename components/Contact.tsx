@@ -9,7 +9,7 @@ const Contact = () => {
       className="flex flex-col text-center md:text-left items-center justify-center mb-24 max-w-4xl mx-auto"
     >
       <Image
-        src="/images/contact.svg"
+        src="/images/contactmelogo.png"
         alt="toolbox"
         className="my-24 pl-8 pr-5"
         width={515}
@@ -23,7 +23,7 @@ const Contact = () => {
             my analytical skills, technical aptitude, and passion for
             problem-solving. I am seeking a collaborative and friendly
             environment where I can continue to grow and make a meaningful
-            impact.
+            impact. Don't hesitate to get in contact with me!
           </p>
           <Link
             href="mailto:danuta.anna@yahoo.com"
@@ -59,10 +59,10 @@ const Contact = () => {
           </div>
         </div>
         <Image
-          src="/images/stickers.svg"
+          src="/images/Launching-pana (1).svg"
           alt="tool icons"
-          width={600}
-          height={600}
+          width={350}
+          height={350}
         />
       </div>
     </section>
