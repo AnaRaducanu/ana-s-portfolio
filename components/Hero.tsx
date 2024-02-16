@@ -11,9 +11,9 @@ const Hero = () => {
     >
       <div className="p-3 flex flex-col h-[80vh] items-center justify-center animate-fadeIn animation-delay-2">
         <Image
-          src="/images/logofirstpagebigger.png"
+          src="/images/heroAna.svg"
           alt="ana raducanu: junior software developer"
-          width={3000}
+          width={4000}
           height={3000}
           priority
         />
