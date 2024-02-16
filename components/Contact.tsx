@@ -3,18 +3,26 @@ import Link from "next/link";
 import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 
 const Contact = () => {
+  const paragraphStyle = {
+    fontFamily: "Roboto, sans-serif",
+    fontWeight: "bold",
+    color: "#133362",
+    fontSize: "60px",
+    marginBottom: "50px",
+  };
   return (
     <section
       id="contact"
       className="flex flex-col text-center md:text-left items-center justify-center mb-24 max-w-4xl mx-auto"
     >
-      <Image
+      <h1 style={paragraphStyle}>Contact me</h1>
+      {/* <Image
         src="/images/ContactMe.svg"
         alt="toolbox"
         className="my-24 pl-8 pr-5"
         width={558}
         height={105}
-      />
+      /> */}
 
       <div className="flex flex-col md:flex-row-reverse gap-16 justify-center items-center">
         <div>
