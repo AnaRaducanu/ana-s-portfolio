@@ -5,6 +5,14 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
+    name: "Personal Portfolio",
+    description:
+      "Personal portfolio built in next.js, showing a little bit about me, my work and how to get in touch with me.",
+    image: "/images/work/personalportfolio (3).png",
+    github: "https://github.com/AnaRaducanu/ana-s-portfolio",
+    link: "https://anaraducanu.vercel.app/",
+  },
+  {
     name: "Habitap",
     description:
       "A simple yet engaging habit tracking app that helps people build new and better habits in a fun, social and trackable way, without distracting from what’s important.",
@@ -19,6 +27,31 @@ const projects = [
     image: "/images/work/BootcampBuddyImg.png",
     github: "https://github.com/AnaRaducanu/Week8_Project_Week_Team5",
     link: "https://github.com/AnaRaducanu/Week8_Project_Week_Team5",
+  },
+  {
+    name: "First Blog Post",
+    description: "A simple blog post app to to practice react concepts",
+    image: "/images/work/blogpost.PNG",
+    github:
+      "https://github.com/SchoolOfCode/bc15-w10-recap-task-react-front-end-blog-AnaRaducanu",
+    link: "https://github.com/SchoolOfCode/bc15-w10-recap-task-react-front-end-blog-AnaRaducanu",
+  },
+  {
+    name: "React Flashcard-App",
+    description:
+      "A simple flashcard app that answers questions regarding the main concepts about react.",
+    image: "/images/work/reactapp.PNG",
+    github:
+      "https://github.com/SchoolOfCode/bc15-w10-d2-workshop-react-flash-cards-app-team-cinci",
+    link: "https://github.com/SchoolOfCode/bc15-w10-d2-workshop-react-flash-cards-app-team-cinci",
+  },
+  {
+    name: "Cat Encyclopedia",
+    description:
+      "An app that retrieves some data from one of the cat API endpoints and renders it on a web page. It was built to practice API concept.",
+    image: "/images/work/Cat Encyclopedia.PNG",
+    github: "https://github.com/AnaRaducanu/CatAPI-App",
+    link: "https://github.com/AnaRaducanu/CatAPI-App",
   },
 ];
 

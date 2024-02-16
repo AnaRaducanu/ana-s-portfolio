@@ -19,10 +19,10 @@ const Toolbox = () => {
         height={105}
       /> */}
       <Image
-        src="/images/tools.svg"
+        src="/images/toolboxAna.png"
         alt="tool icons"
-        width={804}
-        height={320}
+        width={1300}
+        height={700}
       />
     </section>
   );

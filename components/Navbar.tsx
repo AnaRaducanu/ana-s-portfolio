@@ -13,15 +13,16 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: "work",
-    section: "#work",
-  },
-  {
-    label: "about",
+    label: "My Story",
     section: "#about",
   },
   {
-    label: "contact",
+    label: "Projects",
+    section: "#work",
+  },
+
+  {
+    label: "Contact",
     section: "#contact",
   },
 ];
@@ -42,8 +43,8 @@ export default function Navbar() {
                 <Image
                   src="/images/sunlogo.png"
                   alt="logo"
-                  width={90}
-                  height={80}
+                  width={350}
+                  height={350}
                 />
               </div>
             </Link>
@@ -101,7 +102,7 @@ export default function Navbar() {
                 aria-label="download CV"
                 download
               >
-                cv
+                CV
               </Link>
             </div>
           </div>
