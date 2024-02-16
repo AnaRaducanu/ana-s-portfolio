@@ -7,7 +7,7 @@ const Contact = () => {
     fontFamily: "Roboto, sans-serif",
     fontWeight: "bold",
     color: "#133362",
-    fontSize: "60px",
+    fontSize: "40px",
     marginBottom: "50px",
   };
   return (
