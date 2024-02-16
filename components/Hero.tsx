@@ -9,9 +9,9 @@ const Hero = () => {
       id="home"
       className="flex flex-col justify-center text-primary-dark font-jakarta mb-24"
     >
-      <div className="p-3 flex flex-col h-[80vh] items-center justify-center animate-fadeIn animation-delay-2">
+      <div className="p-3 flex flex-col h-[80vh] items-center justify-center animate-fadeIn animation-delay-2 parent-div">
         <Image
-          src="/images/heroAna.svg"
+          src="/images/HeroAna (2).svg"
           alt="ana raducanu: junior software developer"
           width={4000}
           height={3000}
