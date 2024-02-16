@@ -31,15 +31,23 @@ const learning = [
 ];
 
 const MyStory = () => {
+  const paragraphStyle = {
+    fontFamily: "Roboto, sans-serif",
+    fontWeight: "bold",
+    color: "#133362",
+    fontSize: "60px",
+    marginBottom: "50px",
+  };
   return (
     <section id="about" className="flex flex-col items-center mb-24">
-      <Image
+      <h1 style={paragraphStyle}>My Story</h1>
+      {/* <Image
         src="/images/myStory.svg"
         width={558}
         height={105}
         alt="my story"
         className="my-24 px-6"
-      />
+      /> */}
       <div className="column text-justify">
         <p>
           Hello, there! I'm Ana, a junior software developer enthusiast who

@@ -9,7 +9,6 @@ const projects = [
     description:
       "A simple yet engaging habit tracking app that helps people build new and better habits in a fun, social and trackable way, without distracting from what’s important.",
     image: "/images/work/HabitapAppPresentationImg.png",
-    page: "/work/letChat",
     github: "https://github.com/AnaRaducanu/habitap",
     link: "https://habitap.vercel.app/login",
   },
@@ -18,22 +17,29 @@ const projects = [
     description:
       "An app designed for fellow bootcampers to have all the learning resources in our single place, structured by the agenda of the week.",
     image: "/images/work/BootcampBuddyImg.png",
-    page: "/work/insightDashboard",
     github: "https://github.com/AnaRaducanu/Week8_Project_Week_Team5",
     link: "https://github.com/AnaRaducanu/Week8_Project_Week_Team5",
   },
 ];
 
 const MyWork = () => {
+  const paragraphStyle = {
+    fontFamily: "Roboto, sans-serif",
+    fontWeight: "bold",
+    color: "#133362",
+    fontSize: "60px",
+    marginBottom: "50px",
+  };
   return (
     <section id="work" className="flex flex-col items-center mb-24">
-      <Image
+      {/* <Image
         src="/images/Projects.svg"
         alt="my work"
         className="my-24 px-6"
         width={558}
         height={105}
-      />
+      /> */}
+      <h1 style={paragraphStyle}>Projects</h1>
 
       <div className="flex flex-col space-y-28">
         {projects.map((project, idx) => {
