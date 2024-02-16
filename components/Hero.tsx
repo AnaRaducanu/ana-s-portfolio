@@ -13,8 +13,8 @@ const Hero = () => {
         <Image
           src="/images/HeroAna (2).svg"
           alt="ana raducanu: junior software developer"
-          width={4000}
-          height={3000}
+          width={9600}
+          height={7400}
           priority
         />
       </div>
