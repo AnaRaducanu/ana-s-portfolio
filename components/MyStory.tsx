@@ -82,7 +82,7 @@ const MyStory = () => {
           Now, I'm excited to contribute my analytical and problem-solving
           skills to a mission-driven team. When I'm not immersed in code, you
           might find me enjoying a scoop of ice cream, exploring the world of
-          paint by numbers, or diving into a good book on how to negociate with
+          paint by numbers, or diving into a good book on how to negotiate with
           your toddler :).
         </p>
       </div>
