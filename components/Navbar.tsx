@@ -94,7 +94,7 @@ export default function Navbar() {
                 blog
               </Link> */}
               <Link
-                href="/Ana_Raducanu_CV.pdf"
+                href="/Ana_Raducanu_Resume.pdf"
                 target="_blank"
                 className={
                   "block lg:inline-block cursor-pointer text-neutral-900 highlight"
